@@ -6,13 +6,23 @@
   <title>Automockup</title>
 </head>
 <link href="style.css" rel="stylesheet" type="text/css" media="all">
-<script src="auto.js"></script>
 <body>
   <input type="file" style="display:none" id="upload-image" multiple="multiple"></input>
   <div id="upload" class="drop-area">
      Upload File
   </div>
   <div id="thumbnail"></div>
+
+
+  <ul id="filelist">
+</ul>
+<div>
+	Target File:<input type="text" id="target-name"/>
+</div>
+<div>
+	<input type="text" id="new-name"/>
+	<input type="button" id="change-name-btn" value="change"/>
+</div>
   <!-- <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img src="Home.png" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
   </div>
@@ -26,5 +36,6 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 <script src="auto.js"></script>
-
+<script src="auto.js"></script>
+<script src="readfile.js"></script>
 </html>

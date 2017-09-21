@@ -1,0 +1,54 @@
+
+.textarea-container {
+  position: relative;
+  width: 40%;
+  min-width: 400px;
+}
+
+textarea, .textarea-size {
+  min-height: 25px;
+  font-family: sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid;
+  overflow: hidden;
+  width: 100%;
+}
+
+textarea {
+  height: 100%;
+  position: absolute;
+  resize:none;
+  white-space: normal;
+}
+
+.textarea-size {
+  visibility: hidden;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  min-height: 150px;
+}
+
+.notes {
+    color:#333333;
+    background-attachment: local;
+    line-height: 31px;
+    background-image: -webkit-linear-gradient(left, white 10px, transparent 10px), -webkit-linear-gradient(right, white 10px, transparent 10px), -webkit-linear-gradient(white 30px, #E8E8E8 30px, #E8E8E8 31px, white 31px);
+    background-image: -moz-linear-gradient(left, white 10px, transparent 10px), -moz-linear-gradient(right, white 10px, transparent 10px), -moz-linear-gradient(white 30px, #E8E8E8 30px, #E8E8E8 31px, white 31px);
+    background-image: -ms-linear-gradient(left, white 10px, transparent 10px), -ms-linear-gradient(right, white 10px, transparent 10px), -ms-linear-gradient(white 30px, #E8E8E8 30px, #E8E8E8 31px, white 31px);
+    background-image: -o-linear-gradient(left, white 10px, transparent 10px), -o-linear-gradient(right, white 10px, transparent 10px), -o-linear-gradient(white 30px, #E8E8E8 30px, #E8E8E8 31px, white 31px);
+    background-image: linear-gradient(left, white 10px, transparent 10px), linear-gradient(right, white 10px, transparent 10px), linear-gradient(white 30px, #E8E8E8 30px, #E8E8E8 31px, white 31px);
+    background-image: linear-gradient(to left, white 10px, transparent 10px), linear-gradient(to right, white 10px, transparent 10px), linear-gradient(to bottom white 30px, #E8E8E8 30px, #E8E8E8 31px, white 31px);
+    background-size: 100% 100%, 100% 100%, 100% 31px;
+    border: 1px solid #223E66;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px 0 rgba(153, 153, 153, 0.5), inset 2px 2px 1px 0 rgba(153, 153, 153, 0.5);
+    font-family: Roboto, Helvetica, Sans-serif;
+    padding: 8px;
+}
+
+.notes:focus {
+    outline: none;
+}
